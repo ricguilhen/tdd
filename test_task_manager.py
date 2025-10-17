@@ -1,10 +1,9 @@
 import unittest
-# É necessário criar um Enum ou uma classe para os status para este código funcionar
+from task_manager import TodoList
+
 class TaskStatus:
     EM_ANDAMENTO = "em andamento"
     CONCLUIDA = "concluída"
-
-from task_manager import TodoList
 
 class TestCompleteTodoList(unittest.TestCase):
 
